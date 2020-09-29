@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import HomepageMenu from "./Components/HomepageMenu";
+import HomepageMenu from "./Pages/Homepage/HomepageMenu";
 function App() {
   return (
     <div className="App">
