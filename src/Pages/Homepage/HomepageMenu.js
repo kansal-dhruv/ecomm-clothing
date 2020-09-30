@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import './HomepageMenu.scss'
 import MenuItem from "../../Components/MenuItem";
+import Header from "../../Components/Header";
 class HomepageMenu extends Component{
     constructor(props) {
         super();
@@ -44,6 +45,7 @@ class HomepageMenu extends Component{
 
         return(
         <div className='Homepage'>
+            <Header />
             <div className='menu'>
                 {temp.map((item)=>item)}
             </div>

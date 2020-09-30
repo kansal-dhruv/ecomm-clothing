@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import CollectionShop from "../../Components/CollectionShop";
 import MenuItem from "../../Components/MenuItem";
 import './shop.scss'
+import Header from "../../Components/Header";
 class Shop extends Component{
     constructor() {
         super();
@@ -18,6 +19,7 @@ class Shop extends Component{
         }
         return(
             <div className='shop'>
+                <Header />
                 {temp.map((item)=>item)}
             </div>
         )
